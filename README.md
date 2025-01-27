@@ -1,4 +1,5 @@
-mkdir mlops
+# SetUp
+git clone https://github.com/basildevops/mlops.git
 cd mlops
 python3 -m venv .venv
 source .venv/bin/activate
