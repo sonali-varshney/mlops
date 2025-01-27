@@ -10,7 +10,7 @@ python3 -m pip install numpy pandas matplotlib scikit-learn
 
 ### Run the Program
 ```
-python3 app/house_price.py
+python3 app/simple_ml.py
 ```
 ---
 
