@@ -12,10 +12,11 @@ python3 -m pip install numpy pandas matplotlib scikit-learn
 ```
 python3 app/house_price.py
 ```
+---
 
 
 
-# BREAK DOWN
+# Detailed Break Down
 ---
 
 ### **Step 1: Create a Dataset**
