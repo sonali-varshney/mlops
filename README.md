@@ -1,5 +1,5 @@
-# Setup and Run
-### SetUp
+# Setup and Run a simple machine learning program
+### Setup
 ```
 git clone https://github.com/basildevops/mlops.git
 cd mlops
@@ -14,6 +14,16 @@ python3 app/simple_ml.py
 ```
 ---
 
+
+# Setup and Run a simple machine learning program with MLFLOW Tracking
+
+Run all the commands under "Setup" section above.
+
+```
+python3 -m pip mlflow
+python3 app/simple_ml_mlflow.py
+ls
+```
 
 
 # Detailed Break Down
