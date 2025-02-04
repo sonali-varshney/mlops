@@ -6,8 +6,7 @@ url = "http://127.0.0.1:5001/invocations"
 
 # Prepare input data
 data = {
-    "columns": ["Size (sq ft)"],  # Feature name
-    "data": [[1200], [2000]]      # Input data
+    "instances": [[1200], [2000]]      # Input data
 }
 
 # Send POST request
