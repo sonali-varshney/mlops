@@ -8,7 +8,7 @@ import mlflow
 import mlflow.sklearn
 
 # Step 1: Load dataset from an external CSV file
-data_file = "../data/house_price_data.csv"  # Ensure this file exists with the correct format
+data_file = "./data/house_price_datas.csv"  # Ensure this file exists with the correct format
 df = pd.read_csv(data_file)
 
 # Step 2: Split the dataset into features (X) and target (y)

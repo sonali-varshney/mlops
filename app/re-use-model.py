@@ -1,7 +1,7 @@
 import mlflow.sklearn
 
 # Load the model
-model_uri = "runs:/<run_id>/linear_regression_model"
+model_uri = "runs:/06c065722b364c54ab498f7ce9fa036c/linear_regression_model"
 loaded_model = mlflow.sklearn.load_model(model_uri)
 
 # Use the model for predictions
