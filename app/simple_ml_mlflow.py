@@ -9,8 +9,8 @@ import mlflow.sklearn
 
 # Step 1: Create a simple dataset
 data = {
-    "Size (sq ft)": [500, 1000, 1500, 2000, 2500],
-    "Price (in Lakhs)": [25, 50, 75, 100, 125]
+    "Size (sq ft)": [500, 1000, 1500, 2000],
+    "Price (in Lakhs)": [25, 50, 75, 100]
 }
 df = pd.DataFrame(data)
 
