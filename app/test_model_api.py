@@ -2,7 +2,7 @@ import requests
 import json
 
 # Define API endpoint
-url = "http://127.0.0.1:5001/invocations"
+url = "http://35.193.209.7:5000/invocations"
 
 # Prepare input data
 data = {
