@@ -1,10 +1,12 @@
 # Setup and Run a simple machine learning program
 ### Setup
 ```
+pip install virtualenv
+
 git clone https://github.com/basildevops/mlops.git
 cd mlops
 python3 -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate     OR    source .venv/scripts/activate
 python3 -m pip install numpy pandas matplotlib scikit-learn mlflow
 ```
 
