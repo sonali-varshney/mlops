@@ -6,7 +6,7 @@ pip install virtualenv
 git clone https://github.com/basildevops/mlops.git
 cd mlops
 python3 -m venv .venv
-source .venv/bin/activate     OR    source .venv/scripts/activate
+source .venv/bin/activate     OR    source .venv/scripts/activate             # a folder will be created with .venv name
 python3 -m pip install numpy pandas matplotlib scikit-learn mlflow
 ```
 
