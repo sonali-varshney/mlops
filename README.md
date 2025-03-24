@@ -25,6 +25,7 @@ Run all the commands under "Setup" section above.
 python3 -m pip install mlflow
 python3 app/simple_ml_mlflow.py  # Program with MLFLOW tracking
 ls
+tree        OR      cmd //c tree
 ```
 
 
